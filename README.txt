@@ -1,26 +1,20 @@
-BARSHIFT SEO LAUNCH — STEP BY STEP
+BARSHIFT HOMEPAGE — LIVE STORE UPDATE
 
-FILES TO ADD/REPLACE
-
-Replace:
+Replace ONLY the root:
   /index.html
-
-Create:
-  /bookmark-bar-switcher-alternative/index.html
-  /multiple-bookmark-bars-chrome/index.html
-  /robots.txt
-  /sitemap.xml
 
 Do NOT change:
   /privacy/index.html
   /support/index.html
-  /CNAME
+  CNAME
 
-NEW PUBLIC URLS
-  https://barshift.app/bookmark-bar-switcher-alternative/
-  https://barshift.app/multiple-bookmark-bars-chrome/
-  https://barshift.app/robots.txt
-  https://barshift.app/sitemap.xml
+Changes:
+- Removed "Chrome Web Store release coming soon"
+- Added live "Add to Chrome" button in the top navigation
+- Added live "Add to Chrome" button in the hero
+- Added "Available now · v1.0.0"
+- Added canonical/Open Graph basics
+- Kept all current homepage design, support links and animations
 
-The homepage now contains a Guides section linking to both SEO pages.
-Both guides link to each other, the homepage, privacy, support, and the Chrome Web Store.
+Chrome Web Store:
+https://chromewebstore.google.com/detail/barshift/heknhmciegkaobihmoajnbhgefoeamde

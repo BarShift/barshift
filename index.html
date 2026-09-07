@@ -324,32 +324,14 @@ footer{padding:38px 0 44px;border-top:1px solid #dfe8f4;color:#71829b}
   .product-shot.settings{width:226px;right:-3px;bottom:18px}
   .badge{display:none}
   section{padding:70px 0}
-  .bento{grid-template-columns:1fr}.card.wide{grid-column:auto}.guide-grid{grid-template-columns:1fr}
+  .bento{grid-template-columns:1fr}.card.wide{grid-column:auto}
   .flow{padding:28px}.flow h2{font-size:36px}
   .product-card{min-height:520px;padding:22px}.product-copy{min-height:auto}
   .product-frame{min-height:320px}
   .info-card{padding:26px}
   .footer-inner{align-items:flex-start;flex-direction:column}
 }
-
-    .guide-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-    .guide-card{
-      position:relative;overflow:hidden;min-height:240px;padding:28px;border-radius:26px;
-      background:rgba(255,255,255,.82);border:1px solid #dbe6f5;
-      box-shadow:0 18px 52px rgba(34,76,139,.08);transition:.24s ease
-    }
-    .guide-card:hover{transform:translateY(-5px);box-shadow:0 28px 64px rgba(34,76,139,.13);border-color:#cadcf4}
-    .guide-card:before{
-      content:"";position:absolute;right:-80px;top:-90px;width:240px;height:240px;border-radius:50%;
-      background:radial-gradient(circle,rgba(43,111,255,.17),transparent 68%)
-    }
-    .guide-card:nth-child(2):before{background:radial-gradient(circle,rgba(117,88,255,.16),transparent 68%)}
-    .guide-card .section-kicker{position:relative;z-index:2}
-    .guide-card h3{position:relative;z-index:2;margin:9px 0 9px;font-size:27px;letter-spacing:-.035em}
-    .guide-card p{position:relative;z-index:2;margin:0 0 19px;color:#687b96;font-size:14px;line-height:1.6;max-width:520px}
-    .guide-link{position:relative;z-index:2;color:#2469ef;font-size:13px;font-weight:900}
-
-  </style>
+</style>
 </head>
 <body>
 <div class="ambient"></div>
@@ -514,32 +496,6 @@ footer{padding:38px 0 44px;border-top:1px solid #dfe8f4;color:#71829b}
   </div>
 </section>
 
-
-    <section id="guides">
-      <div class="shell">
-        <div class="section-head reveal">
-          <span class="section-kicker">Guides</span>
-          <h2>Get more from your Chrome bookmark bar.</h2>
-          <p>Practical guides for organizing bookmark bar profiles and building a cleaner browsing workflow.</p>
-        </div>
-        <div class="guide-grid">
-          <a class="guide-card reveal" href="/bookmark-bar-switcher-alternative/">
-            <span class="section-kicker">Guide</span>
-            <h3>Bookmark Bar Switcher Alternative</h3>
-            <p>See how BarShift approaches bookmark bar switching while keeping normal Chrome bookmarks as the source of truth.</p>
-            <span class="guide-link">Read the guide →</span>
-          </a>
-          <a class="guide-card reveal" href="/multiple-bookmark-bars-chrome/">
-            <span class="section-kicker">Guide</span>
-            <h3>Multiple Bookmark Bars in Chrome</h3>
-            <p>Learn how to organize multiple bookmark bar profiles for work, private use, study and projects.</p>
-            <span class="guide-link">Read the guide →</span>
-          </a>
-        </div>
-      </div>
-    </section>
-
-
 <section>
   <div class="shell info-grid">
     <article class="info-card reveal">
@@ -568,7 +524,7 @@ footer{padding:38px 0 44px;border-top:1px solid #dfe8f4;color:#71829b}
   <div class="shell footer-inner">
     <div>© 2026 BarShift. All rights reserved.</div>
     <div class="footer-links">
-      <a href="/">Home</a><a href="#features">Features</a><a href="/bookmark-bar-switcher-alternative/">Switcher Alternative</a><a href="/multiple-bookmark-bars-chrome/">Multiple Bookmark Bars</a><a href="/privacy/">Privacy</a><a href="/support/">Support</a>
+      <a href="/">Home</a><a href="#features">Features</a><a href="/privacy/">Privacy</a><a href="/support/">Support</a>
     </div>
   </div>
 </footer>
